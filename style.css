@@ -358,8 +358,6 @@ transition:.4s;
 }
 
 
-
-
 .burger-details{
   position: absolute;
   height: 100%;
@@ -389,7 +387,9 @@ transition:.4s;
   background-color: #dd4d54;
 }
 
-
+/* --------------------
+      roll section 
+-----------------------*/
 .roll-section{
     display: flex;
     justify-content: center;
@@ -443,7 +443,9 @@ transition:.4s;
   font-weight: 700;
 }
 
-
+/* --------------------
+      subscribe section 
+-----------------------*/
 .subscribe-section{
   background-color: #1a1a1a;
 }
@@ -486,4 +488,175 @@ transition:.4s;
 }
 .copy-right a{
   color: white;
+}
+
+
+
+@media (max-width: 600px) {
+  .container{
+    width: 90%;
+  }
+  .banner-text {
+    text-align: center;
+    align-items: center;
+  }
+  .banner-text h1 {
+    font-size: 40px;
+  }
+  .banner-text p {
+    font-size: 15px;
+  }
+  .primary-button {
+    width: 199px;
+    padding: 10px 20px;
+    padding-top: 12px;
+    font-size: 15px;
+    font-weight: 600;
+  }
+  .banner-img {
+    width: 100%;
+    height: 382px;
+  }
+  .banner-img img {
+    width: 90%;
+    height: auto;
+  }
+  .gallery-img {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+  }
+  .item-section {
+    background-image: url(img/black.jpg);
+    height: 2100px;
+  }
+  .breakfast-container {
+    height: 580px;
+    width: 90%;
+  }
+  .circle {
+    height: 90px;
+    width: 90px;
+    top: 29px;
+    right: 30px;
+  }
+  .breakfast-img img {
+    width: 299px;
+    height: 224px;
+    top: 68px;
+    right: 66px;
+  }
+  .breakfast-text p {
+    font-size: 14px;
+  }
+  .breakfast-text h3 {
+    font-size: 29px;
+    margin-top: 0px;
+  }
+  .breakfast-text {
+    height: 315px;
+    width: 250px;
+    padding: 22px;
+    top: 222px;
+    left: 64px;
+  }
+  .breakfast-text button {
+    font-size: 13px;
+    width: 149px;
+    padding: 11px 0;
+    letter-spacing: 0.5px;
+  }
+  .item-heading span {
+    height: 50px;
+    width: 50px;
+    font-size: 20px;
+    line-height: 50px;
+    border-radius: 50%;
+  }
+  .item-heading h3 {
+    line-height: 46px;
+  }
+  .item p {
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    color: rgb(219, 219, 219);
+    margin-top: 16px;
+  }
+  .item {
+    color: white;
+    background-color: rgba(255, 254, 254, 0.103);
+    width: 288px;
+    height: 281px;
+    padding: 35px;
+    border-radius: 8px;
+  }
+  .fastFood-secton h4 {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 16px;
+    text-align: center;
+  }
+  .fastFood-secton h1 {
+    font-size: 47px;
+    letter-spacing: 2px;
+    text-align: center;
+  }
+  .fastFood-secton p {
+    font-size: 16px;
+    text-align: center;
+  }
+  .fastfood-item {
+    text-align: center;
+  }
+  .burger-heading p {
+    font-size: 15px;
+  }
+  .burger-details h4 {
+    margin-top: 50px;
+    font-size: 17px;
+  }
+  .burger-details h5 {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  .burger-details button {
+    width: 127px;
+    font-size: 13px;
+    padding: 9px 0;
+    letter-spacing: 0.5px;
+  }
+  .burger-item {
+    width: 100%;
+    height: 186px;
+  }
+  .carousel-item p {
+    margin: 4px 0;
+    font-size: 15px;
+  }
+  .carousel-item {
+    padding: 15px 50px;
+    height: 400px;
+    border-radius: 10px;
+  }
+  .carousel-item button {
+    width: 162px;
+    font-size: 14px;
+    padding: 8px 0;
+  }
+  .sub-container h1 {
+    font-size: 33px;
+    margin-top: 19px;
+  }
+  .sub-container p {
+    font-size: 15px;
+  }
+  .sub-field button {
+    width: 141px;
+    padding: 13px 0;
+    font-size: 14px;
+  }
+  .sub-field input {
+    width: 233px;
+  }
 }
