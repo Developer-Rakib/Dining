@@ -170,9 +170,6 @@ transition:.4s;
 	top: 29px;
 	right: 200px;
 }
-.breakfast-img{
-
-}
 .breakfast-img img {
 	width: 450px;
 	height: 380px;
@@ -314,7 +311,6 @@ transition:.4s;
 	color: var(--primary-color);
   border-bottom: 1px solid white;
 }
-.fastFood-secton button{}
 
 
 /* --------------------
@@ -402,9 +398,6 @@ transition:.4s;
     color: white;
 }
 
-.carousel-container{
-  
-}
 
 .carousel-item{
   background-color: white;
@@ -419,8 +412,6 @@ transition:.4s;
 	color: var(--primary-color);
 	padding: 20px 0;
 }
-.carousel-item span i{}
-.carousel-item h2{}
 .carousel-item p{
   margin: 27px 0;
   font-size: 18px;
@@ -449,7 +440,6 @@ transition:.4s;
 .subscribe-section{
   background-color: #1a1a1a;
 }
-.sub-container{}
 .sub-container h1 {
 	font-size: 52px;
 	text-transform: uppercase;
@@ -459,7 +449,6 @@ transition:.4s;
   font-family: 'Poppins', sans-serif;
   color: rgb(211, 211, 211);
 }
-.sub-field{}
 .sub-field input {
 	border: none;
 	background: inherit;
