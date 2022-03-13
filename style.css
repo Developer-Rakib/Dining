@@ -314,6 +314,21 @@ transition:.4s;
   border-radius: 8px;
   overflow: hidden;
 }
+.item2{
+  background-image: url(img/burger3.jpg);
+}
+.item3{
+  background-image: url(img/burger2.jpg);
+}
+.item4{
+  background-image: url(img/burger4.jpg);
+}
+.item5{
+  background-image: url(img/burger6.jpg);
+}
+.item6{
+  background-image: url(img/burger7.jpg);
+}
 
 
 
@@ -324,7 +339,7 @@ transition:.4s;
   width: 50%;
   top: 0;
   left: 0;
-  background-color: rgba(0, 0, 0, 0.205);
+  background-color: rgba(0, 0, 0, 0.507);
   color: white;
   text-align: center;
 }
@@ -345,4 +360,9 @@ transition:.4s;
 }
 .burger-details button:hover{
   background-color: #dd4d54;
+}
+
+
+.roll-section{
+
 }
