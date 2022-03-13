@@ -378,9 +378,7 @@ transition:.4s;
 .carousel-container{
   
 }
-.carousel-control-next{
-  background-color: black !important;
-}
+
 .carousel-item{
   background-color: white;
   text-align: center;
@@ -416,4 +414,39 @@ transition:.4s;
   background-color: var(--primary-color);
   color: white;
   font-weight: 700;
+}
+
+
+.subscribe-section{
+  background-color: #1a1a1a;
+}
+.sub-container{}
+.sub-container h1 {
+	font-size: 52px;
+	text-transform: uppercase;
+}
+.sub-container p {
+	font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+  color: rgb(211, 211, 211);
+}
+.sub-field{}
+.sub-field input {
+	border: none;
+	background: inherit;
+	border-bottom: 2px solid var(--primary-color);
+	width: 249px;
+	border-radius: 30px;
+	padding: 0 20px;
+  color: var(--primary-color);
+}
+.sub-field button {
+	width: 200px;
+	padding: 13px 0;
+}
+.sub-field input:focus{
+  border: none;
+  outline: none;
+  background-color: white;
+  border: 2px solid var(--primary-color);
 }
