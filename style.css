@@ -20,10 +20,13 @@ body{
   top: 0;
   left: 0;
   right: 0;
-  display: none;
+  opacity: 0;
+  visibility: hidden;
+  transition: .4s;
 }
 .navbar-show{
-  display: block;
+  opacity: 1;
+  visibility: visible;
 }
 
 .nav-bar ul li {
@@ -40,7 +43,6 @@ display: flex;
 justify-content: flex-start;
 align-items: center;
 height: 70px;
-
 }
 .toggle{
 width: 34px;
