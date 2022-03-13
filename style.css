@@ -364,5 +364,56 @@ transition:.4s;
 
 
 .roll-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(img/6197-min.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 580px;
+    color: white;
+}
 
+.carousel-container{
+  
+}
+.carousel-control-next{
+  background-color: black !important;
+}
+.carousel-item{
+  background-color: white;
+  text-align: center;
+  color: black;
+  padding: 15px 50px;
+  height: 500px;
+  border-radius: 10px;
+}
+.carousel-item span {
+	font-size: 66px;
+	color: var(--primary-color);
+	padding: 20px 0;
+}
+.carousel-item span i{}
+.carousel-item h2{}
+.carousel-item p{
+  margin: 27px 0;
+  font-size: 18px;
+	font-family: 'Poppins', sans-serif;
+  color: gray;
+}
+.carousel-item button {
+	width: 175px;
+	font-size: 15px;
+	padding: 12px 0;
+	font-weight: 300;
+	background: white;
+	color: black;
+	border: 2px solid var(--primary-color);
+  letter-spacing: 1px;
+}
+.carousel-item button:hover{
+  background-color: var(--primary-color);
+  color: white;
+  font-weight: 700;
 }
