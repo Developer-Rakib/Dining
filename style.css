@@ -67,12 +67,36 @@ body{
   background: gray;
   position: relative;
   margin: 0 18px;
+  border-radius: 2px;
+}
+
+.toggle::after {
+	content: "";
+	width: 29px;
+	height: 3px;
+	background: gray;
+	position: absolute;
+	top: 10px;
+  border-radius: 2px;
 
 }
+.toggle::before{
+  content: "";
+  width: 41px;
+  height: 3px;
+  background: gray;
+  position: absolute;
+  bottom: 10px;
+  transition:.4s;
+  border-radius: 2px;
+
+}
+
 .toggle.active{
   transform: rotate(45deg);
   width: 40px;
   background-color: white;
+  
 }
 .toggle.active::after{
   top: 0;
@@ -88,23 +112,6 @@ body{
 
 }
 
-.toggle::after {
-	content: "";
-	width: 30px;
-	height: 3px;
-	background: gray;
-	position: absolute;
-	top: 10px;
-}
-.toggle::before{
-  content: "";
-  width: 40px;
-  height: 3px;
-  background: gray;
-  position: absolute;
-  bottom: 10px;
-  transition:.4s;
-}
 
 
 /* --------------------
