@@ -1,3 +1,8 @@
+// select element 
+let emailField = document.getElementById("email-field");
+let emailBtn = document.getElementById("email-btn");
+
+
 // nav button handle 
 let toggle = document.querySelector('.toggle');
 let nav = document.querySelector('.nav');
@@ -7,4 +12,18 @@ document.querySelector('.toggle-parent').addEventListener('click', () => {
     navBar.classList.toggle('navbar-show');
     toggle.classList.toggle('active');
 
+})
+
+// email validation 
+let emailPattern = /\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*/;
+emailField.addEventListener("keyup", (e) => {
+    if (emailPattern.test(emailField.value)) {
+        emailBtn.removeAttribute("disabled");
+        emailBtn.style.background = "#e81922";
+        console.log("match");
+    } else {
+        emailBtn.setAttribute("disabled", true);
+        emailBtn.style.background = "#500a0d";
+        console.log("not match");
+    }
 })

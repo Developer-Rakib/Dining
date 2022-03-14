@@ -323,8 +323,11 @@ transition:.4s;
   width: 70%;
   margin: 0 auto;
 }
-.burger-heading p{
-  font-size: 18px;
+.burger-heading p {
+	font-size: 18px;
+	max-width: 550px;
+	margin: 0 auto;
+	margin-bottom: 17px;
 }
 .burger-item{
   background-image: url(img/burger1.jpg);
@@ -370,7 +373,7 @@ transition:.4s;
 }
 .burger-details h5 {
 	font-size: 25px;
-	color: #dd4d54;
+	color: #eb2f38;
 	margin: 18px 0;
 }
 
@@ -456,19 +459,26 @@ transition:.4s;
 	width: 249px;
 	border-radius: 30px;
 	padding: 0 20px;
-  color: var(--primary-color);
+  color: rgb(190, 190, 190);
   text-align: center;
-}
-.sub-field button {
-	width: 200px;
-	padding: 13px 0;
-	font-weight: 600;
+  margin-right: 10px;
 }
 .sub-field input:focus{
   border: none;
   outline: none;
   background-color: white;
+  color: rgb(90, 90, 90);
   border: 2px solid var(--primary-color);
+}
+.sub-field button {
+	width: 200px;
+	padding: 13px 0;
+	font-weight: 600;
+  background-color: #500a0d;
+}
+.sub-field button:hover{
+  background-color: #500a0d;
+  
 }
 
 .copy-right{
