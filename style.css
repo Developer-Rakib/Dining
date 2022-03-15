@@ -17,6 +17,10 @@ body{
   color: #e81922;
 }
 
+
+/* ---------------
+    nav section  
+------------------*/
 #nav-container{
   z-index: 100;
 }
