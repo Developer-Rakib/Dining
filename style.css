@@ -504,9 +504,7 @@ body{
 }
 .sub-field button:hover{
   background-color: #500a0d;
-  
 }
-
 .copy-right{
   color: gray;
   text-align: center;
@@ -515,7 +513,9 @@ body{
   color: white;
 }
 
-
+/* -----------------------
+      responsive section 
+------------------------*/
 
 @media (max-width: 600px) {
   .container{
