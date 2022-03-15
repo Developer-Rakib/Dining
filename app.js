@@ -11,19 +11,16 @@ document.getElementById('nav-container').addEventListener('click', () => {
     nav.classList.toggle('open');
     navBar.classList.toggle('navbar-show');
     toggle.classList.toggle('active');
-
 })
 
 // email validation 
 let emailPattern = /\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*/;
-emailField.addEventListener("keyup", (e) => {
+emailField.addEventListener("keyup", () => {
     if (emailPattern.test(emailField.value)) {
         emailBtn.removeAttribute("disabled");
         emailBtn.style.background = "#e81922";
-        console.log("match");
     } else {
         emailBtn.setAttribute("disabled", true);
         emailBtn.style.background = "#500a0d";
-        console.log("not match");
     }
 })
