@@ -382,7 +382,6 @@ body{
   background-image: url(img/burger7.jpg);
 }
 
-
 .burger-details{
   position: absolute;
   height: 100%;
@@ -415,6 +414,7 @@ body{
 /* --------------------
       roll section 
 -----------------------*/
+
 .roll-section{
     display: flex;
     justify-content: center;
@@ -426,7 +426,6 @@ body{
     height: 580px;
     color: white;
 }
-
 
 .carousel-item{
   background-color: white;
@@ -466,6 +465,7 @@ body{
 /* --------------------
       subscribe section 
 -----------------------*/
+
 .subscribe-section{
   background-color: #1a1a1a;
 }
