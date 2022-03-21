@@ -13,6 +13,7 @@ document.getElementById('nav-container').addEventListener('click', () => {
     toggle.classList.toggle('active');
 })
 
+
 // email validation 
 let emailPattern = /\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*/;
 emailField.addEventListener("keyup", () => {
